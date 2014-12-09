@@ -1,0 +1,59 @@
+# Default
+#----------------------------------------------------------------------------------
+
+default:
+  - build
+
+# Setup
+#----------------------------------------------------------------------------------
+
+init:
+  - shell:init
+  - replace
+  - rename
+  - build
+
+refresh:
+  - shell:refresh
+
+update:
+  - shell:update
+  - build
+
+upgrade:
+  - shell:upgrade
+
+# Build
+#----------------------------------------------------------------------------------
+
+build:
+  - clean:build
+  - curl
+  - lint
+  - test
+  - js
+
+lint:
+  - jshint
+  - jscs
+  - phplint
+
+test:
+  - phpunit
+
+js:
+  - browserify
+
+# Release
+#----------------------------------------------------------------------------------
+
+release:
+  - build
+  - replace:project_version
+  - replace:update_project
+
+# Deploy
+#----------------------------------------------------------------------------------
+
+deploy:
+  - clean:deploy

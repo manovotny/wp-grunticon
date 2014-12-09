@@ -1,0 +1,41 @@
+{
+    "name": "PROJECT_COMPOSER_NAME",
+    "version": "0.0.0",
+    "description": "PROJECT_DESCRIPTION",
+    "type": "PROJECT_COMPOSER_TYPE",
+    "homepage": "http://project-url.com",
+    "authors": [
+        {
+            "name": "AUTHOR_NAME",
+            "email": "author@email.com",
+            "homepage": "http://author-url.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-3.0+",
+    "keywords": [
+        "wordpress"
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "manovotny/wp-phpunit-helpers": "~1.0",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "files": [
+            "PROJECT_SLUG.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "vendor/phpunit",
+            "vendor/sebastian",
+            "vendor/symfony"
+        ]
+    }
+}
