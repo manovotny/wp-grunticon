@@ -10,7 +10,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Domain Path: /lang
  * Text Domain: wp-grunticon-loader
- * GitHub Plugin URI: https://github.com/manovotny/wp-grunticon-loader-loader
+ * GitHub Plugin URI: https://github.com/manovotny/wp-grunticon-loader
  */
 
 /* Composer

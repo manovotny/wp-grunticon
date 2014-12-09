@@ -1,5 +1,5 @@
 {
-    "name": "manovotny/wp-grunticon-loader-loader",
+    "name": "manovotny/wp-grunticon-loader",
     "version": "0.0.0",
     "description": "Enables the use of Grunticon within WordPress.",
     "type": "library",
@@ -28,7 +28,7 @@
             "src"
         ],
         "files": [
-            "wp-grunticon-loader-loader.php"
+            "wp-grunticon-loader.php"
         ]
     },
     "autoload-dev": {
