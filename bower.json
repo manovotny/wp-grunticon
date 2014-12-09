@@ -1,19 +1,19 @@
 {
-    "name": "PROJECT_SLUG",
+    "name": "wp-grunticon",
     "version": "0.0.0",
-    "description": "PROJECT_DESCRIPTION",
+    "description": "Enables the use of Grunticon within WordPress.",
     "repository": {
         "type": "git",
-        "url": "PROJECT_GIT"
+        "url": "git://github.com/manovotny/wp-grunticon.git"
     },
     "keywords": [
         "wordpress"
     ],
     "authors": [
         {
-            "name": "AUTHOR_NAME",
-            "email": "author@email.com",
-            "homepage": "http://author-url.com"
+            "name": "Michael Novotny",
+            "email": "manovotny@gmail.com",
+            "homepage": "http://manovotny.com"
         }
     ]
 }

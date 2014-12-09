@@ -4,26 +4,26 @@ module.exports = (function () {
 
     return {
         author: {
-            email: 'author@email.com',
-            name: 'AUTHOR_NAME',
-            url: 'http://author-url.com',
-            username: 'AUTHOR_USERNAME'
+            email: 'manovotny@gmail.com',
+            name: 'Michael Novotny',
+            url: 'http://manovotny.com',
+            username: 'manovotny'
         },
         project: {
             composer: {
-                name: 'PROJECT_COMPOSER_NAME',
-                type: 'PROJECT_COMPOSER_TYPE'
+                name: 'manovotny/wp-grunticon',
+                type: 'library'
             },
-            description: 'PROJECT_DESCRIPTION',
-            git: 'PROJECT_GIT',
-            name: 'PROJECT_NAME',
-            slug: 'PROJECT_SLUG',
-            url: 'http://project-url.com',
+            description: 'Enables the use of Grunticon within WordPress.',
+            git: 'git://github.com/manovotny/wp-grunticon.git',
+            name: 'WP Grunticon',
+            slug: 'wp-grunticon',
+            url: 'https://github.com/manovotny/wp-grunticon',
             version: '0.0.0'
         },
         translations: {
-            domain: 'TRANSLATIONS_DOMAIN',
-            path: 'TRANSLATIONS_PATH'
+            domain: 'wp-grunticon',
+            path: 'lang'
         }
     };
 

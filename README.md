@@ -1,4 +1,4 @@
-PROJECT_SLUG
+wp-grunticon
 ===
 
-PROJECT_DESCRIPTION
+Enables the use of Grunticon within WordPress.

@@ -1,14 +1,14 @@
 {
-    "name": "PROJECT_COMPOSER_NAME",
+    "name": "manovotny/wp-grunticon",
     "version": "0.0.0",
-    "description": "PROJECT_DESCRIPTION",
-    "type": "PROJECT_COMPOSER_TYPE",
-    "homepage": "http://project-url.com",
+    "description": "Enables the use of Grunticon within WordPress.",
+    "type": "library",
+    "homepage": "https://github.com/manovotny/wp-grunticon",
     "authors": [
         {
-            "name": "AUTHOR_NAME",
-            "email": "author@email.com",
-            "homepage": "http://author-url.com",
+            "name": "Michael Novotny",
+            "email": "manovotny@gmail.com",
+            "homepage": "http://manovotny.com",
             "role": "Developer"
         }
     ],
@@ -28,7 +28,7 @@
             "src"
         ],
         "files": [
-            "PROJECT_SLUG.php"
+            "wp-grunticon.php"
         ]
     },
     "autoload-dev": {

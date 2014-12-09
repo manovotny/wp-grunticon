@@ -1,11 +1,11 @@
 {
-    "name": "PROJECT_SLUG",
+    "name": "wp-grunticon",
     "version": "0.0.0",
-    "description": "PROJECT_DESCRIPTION",
-    "author": "AUTHOR_NAME <http://author-url.com>",
+    "description": "Enables the use of Grunticon within WordPress.",
+    "author": "Michael Novotny <http://manovotny.com>",
     "repository": {
         "type": "git",
-        "url": "PROJECT_GIT"
+        "url": "git://github.com/manovotny/wp-grunticon.git"
     },
     "devDependencies": {
         "bundle-collapser": "^1.1.0",
