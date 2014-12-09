@@ -87,8 +87,7 @@ class WP_Grunticon_Loader {
                 $filename,
                 $filename_debug,
                 $dependencies,
-                $this->get_version(),
-                true
+                $this->get_version()
             );
 
             $wp_enqueue_util->enqueue_script( $options );
