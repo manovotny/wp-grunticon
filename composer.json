@@ -1,9 +1,9 @@
 {
-    "name": "manovotny/wp-grunticon",
+    "name": "manovotny/wp-grunticon-loader-loader",
     "version": "0.0.0",
     "description": "Enables the use of Grunticon within WordPress.",
     "type": "library",
-    "homepage": "https://github.com/manovotny/wp-grunticon",
+    "homepage": "https://github.com/manovotny/wp-grunticon-loader",
     "authors": [
         {
             "name": "Michael Novotny",
@@ -28,7 +28,7 @@
             "src"
         ],
         "files": [
-            "wp-grunticon.php"
+            "wp-grunticon-loader-loader.php"
         ]
     },
     "autoload-dev": {

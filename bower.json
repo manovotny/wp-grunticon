@@ -1,10 +1,10 @@
 {
-    "name": "wp-grunticon",
+    "name": "wp-grunticon-loader-loader",
     "version": "0.0.0",
     "description": "Enables the use of Grunticon within WordPress.",
     "repository": {
         "type": "git",
-        "url": "git://github.com/manovotny/wp-grunticon.git"
+        "url": "git://github.com/manovotny/wp-grunticon-loader-loader.git"
     },
     "keywords": [
         "wordpress"

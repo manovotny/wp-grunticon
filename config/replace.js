@@ -11,18 +11,18 @@ module.exports = (function () {
         },
         project: {
             composer: {
-                name: 'manovotny/wp-grunticon',
+                name: 'manovotny/wp-grunticon-loader',
                 type: 'library'
             },
             description: 'Enables the use of Grunticon within WordPress.',
-            git: 'git://github.com/manovotny/wp-grunticon.git',
-            name: 'WP Grunticon',
-            slug: 'wp-grunticon',
-            url: 'https://github.com/manovotny/wp-grunticon',
+            git: 'git://github.com/manovotny/wp-grunticon-loader.git',
+            name: 'WP Grunticon Loader',
+            slug: 'wp-grunticon-loader',
+            url: 'https://github.com/manovotny/wp-grunticon-loader',
             version: '0.0.0'
         },
         translations: {
-            domain: 'wp-grunticon',
+            domain: 'wp-grunticon-loader',
             path: 'lang'
         }
     };
