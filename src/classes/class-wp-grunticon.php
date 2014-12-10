@@ -57,7 +57,7 @@ class WP_Grunticon {
      */
     public function generate_grunticon_asset_path( $current_directory, $relative_path ) {
 
-        return str_replace( ABSPATH, '/', realpath( $current_directory . $relative_path ) );
+        return str_replace( ABSPATH, '/', realpath( trailingslashit( $current_directory ) . $relative_path ) );
 
     }
 
