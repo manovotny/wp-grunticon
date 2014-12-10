@@ -163,19 +163,6 @@ class WP_Grunticon_Options {
 
     }
 
-    /**
-     * Generates path to Grunticon assets.
-     *
-     * @param $current_directory string Current directory where Grunticon enqueueing is occurring, should typically be `__DIR__`.
-     * @param $relative_path string The relative path from the current directory to the Grunticon assets.
-     * @return mixed Path to Grunticon assets.
-     */
-    public function generate_grunticon_asset_path( $current_directory, $relative_path ) {
-
-        return str_replace( ABSPATH, '/', realpath( $current_directory . $relative_path ) );
-
-    }
-
     /* Helpers
     ---------------------------------------------------------------------------------- */
 
