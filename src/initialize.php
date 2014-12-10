@@ -1,3 +1,3 @@
 <?php
 
-WP_Grunticon_Loader::get_instance();
+WP_Grunticon::get_instance();
