@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Grunticon Loader
- * Plugin URI: https://github.com/manovotny/wp-grunticon-loader
+ * Plugin URI: https://github.com/manovotny/wp-grunticon
  * Description: Enables the use of Grunticon within WordPress.
  * Version: 0.0.0
  * Author: Michael Novotny
@@ -9,8 +9,8 @@
  * License: GPL-3.0+
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Domain Path: /lang
- * Text Domain: wp-grunticon-loader
- * GitHub Plugin URI: https://github.com/manovotny/wp-grunticon-loader
+ * Text Domain: wp-grunticon
+ * GitHub Plugin URI: https://github.com/manovotny/wp-grunticon
  */
 
 /* Composer

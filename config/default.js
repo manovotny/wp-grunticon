@@ -19,15 +19,15 @@ module.exports = (function () {
         },
         project: {
             composer: {
-                name: 'manovotny/wp-grunticon-loader',
+                name: 'manovotny/wp-grunticon',
                 type: 'library' // Should be `library` or `project`.
             },
             description: 'Enables the use of Grunticon within WordPress.',
-            git: 'git://github.com/manovotny/wp-grunticon-loader.git',
+            git: 'git://github.com/manovotny/wp-grunticon.git',
             name: 'WP Grunticon Loader',
-            slug: 'wp-grunticon-loader',
+            slug: 'wp-grunticon',
             type: 'plugin', // Should be `plugin` or `theme`.
-            url: 'https://github.com/manovotny/wp-grunticon-loader',
+            url: 'https://github.com/manovotny/wp-grunticon',
             version: '0.0.0'
         }
     };
