@@ -1,6 +1,6 @@
 {
     "name": "wp-grunticon",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Enables the use of Grunticon within WordPress.",
     "repository": {
         "type": "git",

@@ -19,7 +19,7 @@ module.exports = (function () {
             name: 'WP Grunticon Loader',
             slug: 'wp-grunticon',
             url: 'https://github.com/manovotny/wp-grunticon',
-            version: '0.0.0'
+            version: '1.0.0'
         },
         translations: {
             domain: 'wp-grunticon',
