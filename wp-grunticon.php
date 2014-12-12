@@ -3,7 +3,7 @@
  * Plugin Name: WP Grunticon Loader
  * Plugin URI: https://github.com/manovotny/wp-grunticon
  * Description: Enables the use of Grunticon within WordPress.
- * Version: 1.0.0
+ * Version: 2.0.0
  * Author: Michael Novotny
  * Author URI: http://manovotny.com
  * License: GPL-3.0+
