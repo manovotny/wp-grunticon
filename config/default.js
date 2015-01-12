@@ -28,7 +28,7 @@ module.exports = (function () {
             slug: 'wp-grunticon',
             type: 'plugin', // Should be `plugin` or `theme`.
             url: 'https://github.com/manovotny/wp-grunticon',
-            version: '2.0.0'
+            version: '3.0.0'
         }
     };
 
