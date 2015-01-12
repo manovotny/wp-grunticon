@@ -53,7 +53,15 @@ class WP_Grunticon {
      */
     public function load() {
 
-        $queue = apply_filters( 'wp_grunticon_enqueue_scripts', array() );
+        $filter = 'wp_grunticon_enqueue_scripts';
+
+        if ( is_admin() ) {
+
+            $filter = 'wp_grunticon_admin_enqueue_scripts';
+
+        }
+
+        $queue = apply_filters( $filter, array() );
 
         if ( ! empty( $queue ) ) {
 
