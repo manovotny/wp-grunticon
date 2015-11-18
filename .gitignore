@@ -3,6 +3,7 @@
 .idea
 bower_components
 composer.lock
+composer.phar
 config/runtime.json
 curl_downloads
 node_modules

@@ -1,11 +1,11 @@
 {
     "name": "wp-grunticon",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "Enables the use of Grunticon within WordPress.",
-    "author": "Michael Novotny <http://manovotny.com>",
+    "author": "Michael Novotny <http://manovotny.com>, Daniel Seripap <http://daniel.seripap.com>",
     "repository": {
         "type": "git",
-        "url": "git://github.com/manovotny/wp-grunticon.git"
+        "url": "git://github.com/seripap/wp-grunticon.git"
     },
     "devDependencies": {
         "bundle-collapser": "^1.1.0",

@@ -1,14 +1,20 @@
 {
-    "name": "manovotny/wp-grunticon",
-    "version": "3.0.0",
+    "name": "seripap/wp-grunticon",
+    "version": "4.0.0",
     "description": "Enables the use of Grunticon within WordPress.",
     "type": "library",
-    "homepage": "https://github.com/manovotny/wp-grunticon",
+    "homepage": "https://github.com/seripap/wp-grunticon",
     "authors": [
         {
             "name": "Michael Novotny",
             "email": "manovotny@gmail.com",
             "homepage": "http://manovotny.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Daniel Seripap",
+            "email": "daniel@seripap.com",
+            "homepage": "http://daniel.seripap.com",
             "role": "Developer"
         }
     ],

@@ -1,10 +1,10 @@
 {
     "name": "wp-grunticon",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "Enables the use of Grunticon within WordPress.",
     "repository": {
         "type": "git",
-        "url": "git://github.com/manovotny/wp-grunticon.git"
+        "url": "git://github.com/seripap/wp-grunticon.git"
     },
     "keywords": [
         "wordpress"
@@ -14,6 +14,11 @@
             "name": "Michael Novotny",
             "email": "manovotny@gmail.com",
             "homepage": "http://manovotny.com"
+        },
+        {
+            "name": "Daniel Seripap",
+            "email": "daniel@seripap.com",
+            "homepage": "http://daniel.seripap.com"
         }
     ]
 }
